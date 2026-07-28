@@ -1,0 +1,151 @@
+[09:46:25] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:46:29] [ServerMain/INFO]: Loaded 1174 recipes
+[09:46:29] [ServerMain/INFO]: Loaded 1271 advancements
+[09:46:30] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[09:46:30] [Server thread/INFO]: Loading properties
+[09:46:30] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[09:46:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:46:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:46:31] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[09:46:31] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[09:46:32] [Server thread/INFO]: Default game type: SURVIVAL
+[09:46:32] [Server thread/INFO]: Generating keypair
+[09:46:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:46:32] [Server thread/INFO]: Using epoll channel type
+[09:46:32] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:46:32] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[09:46:33] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+[09:46:33] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.0
+[09:46:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:46:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:46:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:46:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:46:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:46:33] [Server thread/INFO]: Preparing level "world"
+[09:46:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:46:34] [Server thread/INFO]: Time elapsed: 410 ms
+[09:46:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:46:37] [Server thread/INFO]: Time elapsed: 2267 ms
+[09:46:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:46:37] [Server thread/INFO]: Time elapsed: 28 ms
+[09:46:37] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
+[09:46:39] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[09:46:39] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[09:46:39] [Server thread/INFO]: [TAB] Enabling TAB v6.1.0
+[09:46:39] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.v1_20_R3.NMSImplementationProvider
+[09:46:40] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
+[09:46:40] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
+[09:46:41] [Server thread/INFO]: [TAB] Enabled in 1209ms
+[09:46:41] [Server thread/INFO]: Running delayed init tasks
+[09:46:41] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0xedfcfce1, L:/[0:0:0:0:0:0:0:0%0]:25565]
+[09:46:41] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
+[09:46:41] [Server thread/INFO]: Done (11.276s)! For help, type "help"
+[09:46:41] [Server thread/INFO]: Timings Reset
+[09:46:41] [Thread-6/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:840:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
+[09:46:42] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[09:46:43] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: within-saskatchewan.gl.joinmc.link
+[09:46:43] [Thread-6/INFO]: playit.gg: tunnel setup
+[09:46:43] [Thread-6/INFO]: playit.gg: within-saskatchewan.gl.joinmc.link
+[09:46:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2596ms or 51 ticks behind
+[09:46:47] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:4781, peerAddr=103.138.120.44:2610, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 112, -109, -71, -35, -26, 18, -83, 103, -118, 120, 44, 10, 50, -104, -98, 50, 51, -85, 8, 106, 104, 122, -121, 0, 0, 0, 0, 0, 38, -8, 78, 0, 0, 0, 0, 0, 100, 61, 82, 0, 0, 0, 0, 0, 66, -49, 46, -99, 10, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 42, 41, 0, -3, 5, 34, 119, 105, 116, 104, 105, 110, 45, 115, 97, 115, 107, 97, 116, 99, 104, 101, 119, 97, 110, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 30, -77, -35, -110, -29, 36, 89, -87, 2, -120, -88, -109, 111, 32, 20, 110], tunnelServerId=0, tunnelId=4378414, dataCenterId=28, portOffset=0}
+[09:46:47] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[09:46:47] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[09:46:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[09:46:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[09:46:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[09:46:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[09:46:47] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[09:46:47] [Netty Epoll Server IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.138.120.44:2610
+[09:46:47] [Netty Epoll Server IO #1/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[09:46:48] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:4781, peerAddr=103.138.120.44:2611, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 111, -109, -71, -35, -26, 18, -83, 103, -118, 120, 44, 10, 51, 70, -82, -110, 117, -85, 8, 106, 104, 122, -120, 0, 0, 0, 0, 0, 38, -8, 78, 0, 0, 0, 0, 0, 100, 61, 82, 0, 0, 0, 0, 0, 66, -49, 46, -81, 77, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 41, 40, 0, -3, 5, 33, 119, 105, 116, 104, 105, 110, 45, 115, 97, 115, 107, 97, 116, 99, 104, 101, 119, 97, 110, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 46, 18, -83, 2, -101, -107, -11, 103, 99, 54, 68, 122, -84, -59, 47, 76, 40, -17, -90, -94], tunnelServerId=0, tunnelId=4378414, dataCenterId=28, portOffset=0}
+[09:46:48] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[09:46:48] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[09:46:48] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[09:46:48] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[09:46:48] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[09:46:48] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[09:46:48] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[09:46:48] [Netty Epoll Server IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.138.120.44:2611
+[09:46:48] [Netty Epoll Server IO #2/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[09:46:48] [User Authenticator #0/INFO]: UUID of player ROFIOUS is 9e719473-443e-3d6e-bead-d220ff3de96c
+[09:46:49] [Server thread/INFO]: ROFIOUS joined the game
+[09:46:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Player ROFIOUS's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[09:46:50] [Server thread/INFO]: ROFIOUS[/127.0.0.1:35722] logged in with entity id 11580 at ([world]-71.1599338136768, 73.79309222533313, 62.98090478250992)
+[09:46:56] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:4781, peerAddr=103.68.4.248:64804, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 118, -109, -71, -35, -26, 18, -83, 103, 68, 4, -8, -3, 36, -89, 76, -49, -78, -85, 8, 106, 104, 122, -112, 0, 0, 0, 0, 0, 38, -8, 78, 0, 0, 0, 0, 0, 100, 61, 82, 0, 0, 0, 0, 0, 66, -49, 46, -65, -125, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 14, 0, 48, 47, 0, -3, 5, 40, 119, 105, 116, 104, 105, 110, 45, 115, 97, 115, 107, 97, 116, 99, 104, 101, 119, 97, 110, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 0, 70, 79, 82, 71, 69, 99, -35, 1, -123, 26, -108, 75, -76, 102, -2, 75, 92, 38, -20, -109, -59, -36, 13, -117], tunnelServerId=0, tunnelId=4378414, dataCenterId=2, portOffset=0}
+[09:46:56] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[09:46:56] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[09:46:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[09:46:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[09:46:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[09:46:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[09:46:56] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[09:46:56] [Netty Epoll Server IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.68.4.248:64804
+[09:46:56] [Netty Epoll Server IO #3/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[09:47:00] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.230:4781, peerAddr=103.68.4.248:64810, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 117, -109, -71, -35, -26, 18, -83, 103, 68, 4, -8, -3, 42, 8, -90, -34, 85, -85, 8, 106, 104, 122, -108, 0, 0, 0, 0, 0, 38, -8, 78, 0, 0, 0, 0, 0, 100, 61, 82, 0, 0, 0, 0, 0, 66, -49, 46, -14, 39, -85, 8, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 8, 0, 47, 46, 0, -3, 5, 39, 119, 105, 116, 104, 105, 110, 45, 115, 97, 115, 107, 97, 116, 99, 104, 101, 119, 97, 110, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 46, 0, 70, 79, 82, 71, 69, 18, -83, 2, 42, 116, -69, -12, -55, 49, -102, -8, -126, -83, 78, 50, 32, 16, -67, -29], tunnelServerId=0, tunnelId=4378414, dataCenterId=2, portOffset=0}
+[09:47:00] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[09:47:00] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[09:47:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[09:47:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[09:47:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[09:47:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[09:47:00] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[09:47:00] [Netty Epoll Server IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /103.68.4.248:64810
+[09:47:00] [Netty Epoll Server IO #0/WARN]: [gg.playit.minecraft.PlayitHeaderDecoder] could not find NetworkManager handler to update address
+[09:47:00] [User Authenticator #0/INFO]: UUID of player DREAME_KILLAR is 69f3fc4c-a3f2-3669-9976-6ad87c357434
+[09:47:01] [Server thread/INFO]: DREAME_KILLAR joined the game
+[09:47:01] [TAB Processing Thread/INFO]: [TAB] [WARN] Player DREAME_KILLAR's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[09:47:01] [Server thread/INFO]: DREAME_KILLAR[/127.0.0.1:40544] logged in with entity id 12279 at ([world]160.56893371213786, 74.22024786069764, 32.01578342438762)
+[09:47:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15560ms or 311 ticks behind
+[09:49:12] [Server thread/INFO]: ROFIOUS issued server command: /tp DREAME_KILLAR ROFIOUS
+[09:49:12] [Server thread/INFO]: [ROFIOUS: Teleported DREAME_KILLAR to ROFIOUS]
+[09:49:21] [Server thread/INFO]: DREAME_KILLAR issued server command: /gamemode spectator
+[09:49:21] [Server thread/INFO]: [DREAME_KILLAR: Set own game mode to Spectator Mode]
+[09:49:31] [Server thread/INFO]: DREAME_KILLAR issued server command: /gamemode survival
+[09:49:31] [Server thread/INFO]: [DREAME_KILLAR: Set own game mode to Survival Mode]
+[09:49:32] [Server thread/INFO]: DREAME_KILLAR fell from a high place
+[09:49:32] [Server thread/INFO]: ROFIOUS issued server command: /locate structure minecraft:village_plains
+[09:49:33] [Server thread/INFO]: Locating element minecraft:village_plains took 44 ms
+[09:49:35] [Server thread/INFO]: ROFIOUS issued server command: /tp @s -208 ~ -384
+[09:49:35] [Server thread/INFO]: [ROFIOUS: Teleported ROFIOUS to -207.500000, 94.002779, -383.500000]
+[09:49:38] [Server thread/INFO]: DREAME_KILLAR issued server command: /gamemode creative
+[09:49:38] [Server thread/INFO]: [DREAME_KILLAR: Set own game mode to Creative Mode]
+[09:50:10] [Server thread/INFO]: ROFIOUS issued server command: /tp DREAME_KILLAR ROFIOUS
+[09:50:10] [Server thread/INFO]: [ROFIOUS: Teleported DREAME_KILLAR to ROFIOUS]
+[09:50:43] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[09:50:59] [Server thread/WARN]: DREAME_KILLAR moved too quickly! 8.402745346910365,0.0,6.184882402023675
+[09:51:07] [Server thread/INFO]: Stopping server
+[09:51:07] [Server thread/INFO]: [TAB] Disabling TAB v6.1.0
+[09:51:07] [Server thread/INFO]: [TAB] Disabled in 2ms
+[09:51:07] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.2.0
+[09:51:07] [Server thread/INFO]: Saving players
+[09:51:07] [Server thread/INFO]: ROFIOUS lost connection: Server closed
+[09:51:07] [Server thread/INFO]: ROFIOUS left the game
+[09:51:07] [Server thread/INFO]: DREAME_KILLAR lost connection: Server closed
+[09:51:07] [Server thread/INFO]: DREAME_KILLAR left the game
+[09:51:07] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[09:51:07] [Server thread/INFO]: Saving worlds
+[09:51:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:51:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[09:51:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[09:51:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[09:51:10] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[09:51:15] [Server thread/INFO]: [ChunkHolderManager] Saved 3624 block chunks, 2230 entity chunks, 18 poi chunks in world 'world' in 7.80s
+[09:51:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:51:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[09:51:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[09:51:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[09:51:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[09:51:16] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1.00s
+[09:51:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:51:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[09:51:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[09:51:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[09:51:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[09:51:17] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.38s
+[09:51:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:51:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:51:17] [Server thread/INFO]: Flushing Chunk IO
+[09:51:17] [Server thread/INFO]: Closing Thread Pool
+[09:51:17] [Server thread/INFO]: Closing Server
